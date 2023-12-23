@@ -1,0 +1,33 @@
+div{
+    text-align: center;
+    display: block;
+}
+h1{
+    
+    font-size: 80px;
+    font-family: Impact;
+    font-weight: bold;
+    margin: 0.65em 0px;
+
+}
+p{
+    font-size: 35px;
+    margin: 1em 0px;
+
+}
+button{
+    
+    width: 250px;
+    height: 80px;
+    background-color: blue;
+    color: white;
+    border-width: 2px;
+    transition-property: all;
+    transition-duration: 1s;
+}
+button :hover{
+    width: 0px;
+    height: 0px;
+
+    background-color: forestgreen;
+}
